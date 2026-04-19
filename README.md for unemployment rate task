@@ -1,0 +1,164 @@
+# 📊 Unemployment Analysis in India (Python Project)
+
+## 📌 Overview
+
+This project analyzes unemployment trends in India using real-world datasets. The analysis focuses on identifying patterns, understanding seasonal variations, and evaluating the impact of the Covid-19 pandemic on unemployment rates.
+
+The project uses Python for data cleaning, exploration, and visualization to derive meaningful insights that can support economic and policy decisions.
+
+---
+
+## 🎯 Objectives
+
+* Analyze unemployment rate trends over time
+* Study the impact of Covid-19 on employment
+* Identify seasonal patterns in unemployment
+* Compare regional and urban–rural differences
+* Provide insights for economic and social policies
+
+---
+
+## 📂 Datasets Used
+
+### 1. Unemployment in India.csv
+
+* Covers **pre-Covid period (2019)**
+* Features:
+
+  * Region (State)
+  * Date
+  * Estimated Unemployment Rate (%)
+  * Labour Participation Rate
+  * Area (Urban/Rural)
+
+### 2. Unemployment_Rate_upto_11_2020.csv
+
+* Covers **Covid period (2020)**
+* Features:
+
+  * Region
+  * Date
+  * Estimated Unemployment Rate (%)
+  * Latitude & Longitude
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas (Data Cleaning & Analysis)
+* Matplotlib (Visualization)
+* Seaborn (Statistical Visualization)
+
+---
+
+## ⚙️ Project Workflow
+
+### 1. Data Preprocessing
+
+* Removed unnecessary spaces in column names
+* Converted date columns to datetime format
+* Handled missing values
+* Standardized column names
+
+### 2. Exploratory Data Analysis (EDA)
+
+* Time-series analysis of unemployment rates
+* Monthly and seasonal trend analysis
+* State-wise unemployment comparison
+* Urban vs Rural comparison
+
+### 3. Visualization
+
+* Line plots for trend analysis
+* Bar charts for regional comparison
+* Box plots for distribution analysis
+
+---
+
+## 📈 Key Insights
+
+### 🔹 Covid-19 Impact
+
+* Significant increase in unemployment during 2020
+* Peak observed during lockdown months (April–May)
+
+### 🔹 Pre-Covid Trends
+
+* Stable unemployment patterns in 2019
+
+### 🔹 Seasonal Trends
+
+* Certain months show recurring unemployment spikes
+* Linked to agricultural and temporary employment cycles
+
+### 🔹 Regional Differences
+
+* Some states consistently show higher unemployment
+* Indicates uneven economic development
+
+### 🔹 Urban vs Rural Analysis
+
+* Urban areas show higher volatility
+* Rural areas influenced by seasonal employment
+
+---
+
+## 🏛️ Policy Recommendations
+
+* Strengthen employment guarantee schemes
+* Promote skill development and digital jobs
+* Invest in high-unemployment regions
+* Support informal sector workers
+* Plan seasonal employment opportunities
+
+---
+
+## ▶️ How to Run the Project
+
+1. Install required libraries:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+2. Place both datasets in the project folder
+
+3. Run the Python script or Jupyter Notebook:
+
+```bash
+python unemployment_analysis.py
+```
+
+---
+
+## 📌 Project Structure
+
+```
+📁 Unemployment-Analysis
+│── 📄 README.md
+│── 📄 unemployment_analysis.py
+│── 📄 Unemployment in India.csv
+│── 📄 Unemployment_Rate_upto_11_2020.csv
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Apply machine learning models for prediction
+* Perform time-series forecasting (ARIMA, LSTM)
+* Integrate additional economic indicators (GDP, inflation)
+
+---
+
+## 📚 Conclusion
+
+This project demonstrates how data analysis can reveal important economic patterns. The findings highlight the severe impact of Covid-19 on employment and emphasize the need for data-driven policies to ensure economic stability and job security.
+
+---
+
+## 👩‍💻 Author
+
+* Janvi Athanker
+
